@@ -1,0 +1,309 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1052px;
+    height: 105px;
+    margin: 92px 24px 96px;
+}
+
+
+
+.header_nav{
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    gap: 32px;
+}
+
+.header_menu_main{
+    list-style: none;
+}
+
+.header_menu{
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.header_menu_item_main{
+    text-decoration: none;
+}
+
+
+
+.header_logo{
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+
+
+.header_info{
+    list-style: none;
+    width: 240.52px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 24.3px;
+}
+
+.header_info_item_non_active{
+    text-decoration: none;
+}
+
+
+
+.jamb_img{
+    object-fit: cover;
+    z-index: -2;
+}
+
+.jambotron{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 757px;    
+}
+
+.jambotron_box{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    height: 100%;
+    padding: 165px 50px 237px;
+}
+
+.jambotron_title_ono{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 115px;
+}
+
+.jambotron_title_tebe{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 100px;
+    padding-top: 20px;
+}
+
+.jambotron_title_nado{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 100px;
+    padding-top: 20px;
+}
+
+
+.jambotron_title_span1{
+    letter-spacing: 30px;
+}
+
+.jambotron_title_span2{
+    letter-spacing: 60px;
+}
+
+.jambotron_line{
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 135px;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.jambotron_line_auction{
+    line-height: 28px;
+    padding-left: 28px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+
+.jambotron_line_bet{
+    border: 1px solid;
+    padding: 12px 32px 11px 31px;
+}
+
+
+
+.lots{
+    margin-top: 179px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 1052px;
+    height: 692px;   
+}
+
+.lots_title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.96px;
+    padding-left: 40px;
+}
+
+.lots_list{
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    padding-top: 27px;    
+}
+
+.lot_picture{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 334px;
+    height: 563px;
+}
+
+.first_lot,
+.second_lot,
+.third_lot{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 334px;
+    height: 563px;
+}
+
+.lot_title{
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.4px;
+    padding-left: 40px;
+    padding-top: 51px;
+    padding-right: 40px;
+}
+
+.lot_content{
+    color: rgba(255, 255, 255, 1);
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.first_lot_content{
+    padding-top: 238px;
+}
+
+.third_lot_content{
+    padding-top: 90px;    
+}
+
+.more_button {
+    color: gba(0, 0, 0, 1);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    width: 192px;
+    height: 23px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.about{
+    width: 1052px;
+    height: 595px;
+    margin-top: 146px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    gap: 72px;
+}
+
+.about_logo{
+    width: 240px;
+    height: 240px;
+    margin-top: 35px;
+    margin-left: 47px;
+}
+
+.about_auction{
+    padding-top: 136px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 693px;
+    height: 449px;    
+}
+
+.about_title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about_desc{
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about_desc_list{
+    list-style: none;    
+}
+
+.about_second_para{
+    margin-top: 24px;
+}
+
+.footer{
+    justify-content: space-between;
+    margin: 180px 50px 88px;
+    
+    display: flex;
+}
+
+.footer_info{
+    list-style: none;
+    width: 240.52px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 24.3px;
+}
+
+.footer_nav{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+
+.footer_menu_main{
+    list-style: none;
+}
+
+.footer_menu_item{
+    text-decoration: none;
+}
+
+.footer_socials{
+    display: flex;
+    width: 240px;
+    height: 48px;
+    gap: 48px;
+
+}
